@@ -74,7 +74,7 @@ function TabContent({ item }) {
   }
 
   function handleUndo() {
-    showDetails(true);
+    setShowDetails(true);
     setLikes(0);
   }
   return (
