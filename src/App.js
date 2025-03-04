@@ -20,9 +20,9 @@ const content = [
 
 export default function App() {
   // Proper way of calling functions in React
-  console.log(<DifferentContent />);
+  // console.log(<DifferentContent />);
   // Wrong way of calling function in React
-  console.log(DifferentContent());
+  // console.log(DifferentContent());
   return (
     <div>
       <Tabbed content={content} />
