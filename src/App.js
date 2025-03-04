@@ -74,6 +74,7 @@ function TabContent({ item }) {
   }
 
   function handleTripleInc() {
+    // Because of update batching Asynchrounous nature of state update the code below would only add 1 when the button is clicked
     setLikes(likes + 1);
     setLikes(likes + 1);
     setLikes(likes + 1);
