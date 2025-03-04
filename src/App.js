@@ -78,6 +78,11 @@ function TabContent({ item }) {
     // setLikes(likes + 1);
     // setLikes(likes + 1);
     // setLikes(likes + 1);
+
+    // To handle to above problem we pass in call back function instead
+    setLikes((likes) => likes + 1);
+    setLikes((likes) => likes + 1);
+    setLikes((likes) => likes + 1);
   }
   function handleUndo() {
     setShowDetails(true);
